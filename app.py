@@ -35,7 +35,7 @@ def load_model(file_path):
         st.error(f"Gagal memuat model: {e}")
         return None
 
-MODEL_PATH = "linear_regression_model (3).pkl"
+MODEL_PATH = "linear_regression_model.pkl"
 model = load_model(MODEL_PATH)
 
 # --- Judul dan Deskripsi Aplikasi ---
